@@ -9,7 +9,7 @@ class App extends Component {
   //   employees
   // };
 
-// filteremployee....by name
+// filteremployee....by name?
 
 render() {
   return (
@@ -17,6 +17,7 @@ render() {
 <Header>
   <h1>Employee Directory</h1>
 </Header>
+<Searchbar />
 
 
 </div>
