@@ -16,7 +16,7 @@ class App extends Component {
 
 
 
-  // When the form is submitted, search the employees.json `this.state.search`
+  // When the form is submitted, search the employees.json for `this.state.search`
   handleFormSubmit = event => {
     event.preventDefault();
     const filterEmp = employees.filter(emp => emp.name === this.state.search);
