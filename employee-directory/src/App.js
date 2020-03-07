@@ -14,12 +14,24 @@ class App extends Component {
     search: ""
   };
 
+ findEmployee = emp => {
+   console.log(emp);
+   if ((emp.name).indexOf(this.state.search) !== -1) {
+    return emp;
+    // toLowerCase both emp.name and this.search.state
+   } 
 
+// emp => emp.name === this.state.search
+  // return emp if emp contains this.state.search
+  
+ }
 
   // When the form is submitted, search the employees.json for `this.state.search`
   handleFormSubmit = event => {
+
     event.preventDefault();
-    const filterEmp = employees.filter(emp => emp.name === this.state.search);
+    const filterEmp = employees.filter(this.findEmployee);
+    console.log("search"+ this.state.search);
     this.setState({ employees: filterEmp });
     }
   
