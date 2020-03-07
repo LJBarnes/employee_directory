@@ -54,7 +54,7 @@ class App extends Component {
                 <tr>
                     <th>ID</th>
                     <th>Pic</th>
-                    <th>Name <button type="button" className="btn btn-info">sort</button></th>
+                    <th>Name <button type="button" className="btn btn-primary">sort</button></th>
                     <th>Phone</th>
                     <th>Email</th>
                 </tr>
