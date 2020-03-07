@@ -16,14 +16,12 @@ class App extends Component {
 
  findEmployee = emp => {
    console.log(emp);
+  //  -1 with .indexof means whatever you're looking for is not there--so by saying !== whatever you're returning whatever you're searching for if it IS in the directory
    if ((emp.name).indexOf(this.state.search) !== -1) {
     return emp;
-    // toLowerCase both emp.name and this.search.state
+    // to do: toLowerCase both emp.name and this.search.state so that it won't snag if someone doesn't type it in just right thing
    } 
 
-// emp => emp.name === this.state.search
-  // return emp if emp contains this.state.search
-  
  }
 
   // When the form is submitted, search the employees.json for `this.state.search`
