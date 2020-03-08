@@ -10,3 +10,6 @@ Created with React, this employee directory is a fast and easy way to display no
 # How It Works
 When a user loads the page, a table of employees is rendered. 
 By typing a name in the search bar, the employees in the directory are filtered through and the searched employee is displayed if the name is found in the directory. By pushing the sort button, the names will be put in order alphabetically. 
+
+# Deployed Application
+[https://shrouded-plains-12776.herokuapp.com/](url)
