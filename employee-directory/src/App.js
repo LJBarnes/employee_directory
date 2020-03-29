@@ -43,6 +43,8 @@ class App extends Component {
 
 
   // function for sorting employees in alphabetical order
+  // add back beside emp name, once alphabetical order sort function working:
+  // <button type="button" className="btn btn-primary">sort</button>
 
 
   // we want to map over employees and render a row for each employee
@@ -64,7 +66,7 @@ class App extends Component {
                 <tr>
                     <th>ID</th>
                     <th>Pic</th>
-                    <th>Name <button type="button" className="btn btn-primary">sort</button></th>
+                    <th>Name </th>
                     <th>Phone</th>
                     <th>Email</th>
                 </tr>
@@ -87,3 +89,4 @@ class App extends Component {
 
 
 export default App;
+
