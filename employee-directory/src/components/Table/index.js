@@ -22,9 +22,7 @@ const Table = (props) => {
           </li>
         </ul>
       </div>
-      <span onClick={() => props.removeFriend(props.id)} className="remove">
-        𝘅
-      </span>
+      
     </div>
     );
   }
