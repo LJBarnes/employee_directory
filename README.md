@@ -10,4 +10,4 @@ When a user loads the page, a table of employees is rendered.
 By typing a name in the search bar, the employees in the directory are filtered through and the searched employee is displayed if the name is found in the directory.  
 
 # Deployed Application
-[Demo](https://shrouded-plains-12776.herokuapp.com/)
+[Demo](https://infinite-chamber-55232.herokuapp.com/)
